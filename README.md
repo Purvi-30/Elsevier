@@ -24,3 +24,10 @@ Response ->
 <insert answer here>
 
 Attempted Solution is in attached excel - Elsevier QE Techhnical Test, tab named 'Task 3 API Tests'
+  
+**TASK 4 Test Automation** -
+Go to http://automationpractice.com/index.php and using Java, write an automated test/s to verify that summer dresses can be added to the cart and it’s possible to proceed to the Sign in section. 
+  
+Attached attempted code in Elsevier Test folder. Run it with TestRunner file.
+Cucumber BDD framework is followed along with Page Object Model
+
