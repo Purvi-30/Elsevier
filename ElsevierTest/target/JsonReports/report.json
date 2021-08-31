@@ -1,0 +1,71 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-31T22:13:33.105Z",
+        "line": 6,
+        "name": "Verify that summer dresses can be added to the cart and it�s possible to proceed to the Sign in section.",
+        "description": "",
+        "id": "summer-dresses-can-be-added-to-the-cart-and-then-user-is-able-to-sign-in-to-automation-practice-site;verify-that-summer-dresses-can-be-added-to-the-cart-and-it�s-possible-to-proceed-to-the-sign-in-section.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24826000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Automation Practice website",
+            "match": {
+              "location": "StepDef.TestAutomationTask.UserIsOnAutomationPracticeWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\r\n\tat StepDef.TestAutomationTask.UserHasAddedOneSummerDressToACart(TestAutomationTask.java:32)\r\n\tat ✽.User has added one summer dress to a cart(file:///C:/Users/purvi/eclipse-workspace/ElsevierTest/src/test/resources/Features/AutomationPractice.feature:8)\r\n",
+              "duration": 24000000,
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "User has added one summer dress to a cart",
+            "match": {
+              "location": "StepDef.TestAutomationTask.UserHasAddedOneSummerDressToACart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User has proceeded to checkout",
+            "match": {
+              "location": "StepDef.TestAutomationTask.UserHasProceededToCheckout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User is able to Sign in at the time of checkout",
+            "match": {
+              "location": "StepDef.TestAutomationTask.UserIsAbleToSignInAtTheTimeOfCheckout()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Summer dresses can be added to the cart and then user is able to Sign in to automation practice site",
+    "description": "",
+    "id": "summer-dresses-can-be-added-to-the-cart-and-then-user-is-able-to-sign-in-to-automation-practice-site",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AutomationPractice.feature",
+    "tags": []
+  }
+]

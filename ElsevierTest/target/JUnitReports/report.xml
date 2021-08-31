@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="25.105">
+<testcase classname="Summer dresses can be added to the cart and then user is able to Sign in to automation practice site" name="Verify that summer dresses can be added to the cart and it�s possible to proceed to the Sign in section." time="24.949">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given User is on Automation Practice website................................passed
+When User has added one summer dress to a cart..............................failed
+And User has proceeded to checkout..........................................skipped
+Then User is able to Sign in at the time of checkout........................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at StepDef.TestAutomationTask.UserHasAddedOneSummerDressToACart(TestAutomationTask.java:32)
+	at ✽.User has added one summer dress to a cart(file:///C:/Users/purvi/eclipse-workspace/ElsevierTest/src/test/resources/Features/AutomationPractice.feature:8)
+]]></failure>
+</testcase>
+</testsuite>
